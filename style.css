@@ -234,10 +234,14 @@ body{
     }
 
     .icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         color: var(--ivory);
         padding: 16px;
-        height: 60px;
-        width: 60px;
+        height: 50px;
+        width: 50px;
         text-align: center;
         border-radius: 50%;
         font-size: 20px;
