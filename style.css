@@ -6,6 +6,10 @@
     --poly-green: #316c40;
     --mindarn: #E2F87B;
     --ivory: #FDFFF6;
+    --light-red: #fbe9e9;
+    --light-purple: rgb(254, 226, 254);
+    --light-green: #ebfeeb;
+    --light-blue: #ececfe;
 
 }
 
@@ -30,7 +34,7 @@ body{
     bottom: 0;
     height: 100vh;
     width: 110px;
-    padding: 0 1.7rem;
+    padding: 0 14px;
     border: 1px solid var(--ivory);
     overflow: hidden;
     transition: all 0.5s linear;
@@ -171,4 +175,173 @@ body{
 
 .search-box i:hover{
     transform: scale(1.2);
+}
+
+/* card container */
+.card--container{
+    background-color: var(--poly-green);
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.main-title{
+    color: var(--ivory);
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.payment--card{
+    padding: 18px;
+    border-radius: 10px;
+    width: 290px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .5s ease-in-out;
+}
+
+.payment--card:hover{
+    transform: translateY(-5px);
+}
+
+.card--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card--header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .amount{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title{
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    .amount-value{
+        font-size: 24px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+    }
+
+    .icon{
+        color: var(--ivory);
+        padding: 16px;
+        height: 60px;
+        width: 60px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+}
+
+.card-details{
+    font-size: 16px;
+    color: var(--deep-green);
+    letter-spacing: 2px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* color change */
+.light-red{
+    background-color: var(--light-red);
+}
+
+.light-purple{
+    background-color: var(--light-purple);
+}
+
+.light-green{
+    background-color: var(--light-green);
+}
+
+.light-blue{
+    background-color: var(--light-blue);
+}
+.dark-red{
+    background-color: red;
+}
+.dark-purple{
+    background-color: purple;
+}
+.dark-green{
+    background-color: green;
+}
+.dark-blue{
+    background-color: blue;
+}
+
+/* Tabular section */
+.tabular--wrapper{
+    background-color: var(--poly-green);
+    margin-top: 1rem;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.table-container{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: var(--spring-green);
+    color: var(--ivory);
+}
+
+th{
+    padding: 15px;
+    text-align: left;
+}
+
+tbody{
+    background-color: var(--mindarn);
+}
+
+td{
+    padding: 15px;
+    font-size: 14px;
+    color: var(--deep-green);
+}
+
+tr:nth-child(even){
+    background-color: var(--poly-green);
+    
+    td, button{
+    color: var(--ivory)
+    }
+}
+
+tfoot{
+    background-color: var(--spring-green);
+    color: var(--ivory);
+    font-weight: bold;
+}
+
+tfoot td{
+    padding: 15px;
+    color: var(--ivory);
+}
+
+.table-container button{
+    color: green;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    border: none;
 }
