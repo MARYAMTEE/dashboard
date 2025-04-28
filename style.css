@@ -207,8 +207,6 @@ body{
 
 .card--wrapper{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     gap: 16px;
 }
@@ -321,7 +319,7 @@ td{
 
 tr:nth-child(even){
     background-color: var(--poly-green);
-    
+
     td, button{
     color: var(--ivory)
     }
