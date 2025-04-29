@@ -22,7 +22,7 @@
 body{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 16px;
     display: flex;
     background: linear-gradient(90deg, var(--deep-green), var(--spring-green), var(--deep-green));
 }
@@ -33,7 +33,7 @@ body{
     left: 0;
     bottom: 0;
     height: 100vh;
-    width: 105px;
+    width: 100px;
     padding: 0 14px;
     border: 1px solid var(--ivory);
     overflow: hidden;
@@ -47,7 +47,7 @@ body{
 }
 
 .logo{
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ body{
     gap: 25px;
 
     i{
-        font-size: 25px;
+        font-size: 20px;
         color: var(--ivory)
     }
 }
@@ -193,7 +193,7 @@ body{
 .payment--card{
     padding: 18px 10px;
     border-radius: 10px;
-    width: 290px;
+    width: 270px;
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -304,6 +304,7 @@ table{
 thead{
     background-color: var(--spring-green);
     color: var(--ivory);
+    font-size: 18px;
 }
 
 th{
