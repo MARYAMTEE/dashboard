@@ -193,7 +193,7 @@ body{
 .payment--card{
     padding: 18px 10px;
     border-radius: 10px;
-    width: 270px;
+    width: 260px;
     height: 150px;
     display: flex;
     flex-direction: column;
