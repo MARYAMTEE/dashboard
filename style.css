@@ -198,7 +198,7 @@ body{
 .payment--card{
     padding: 18px 10px;
     border-radius: 10px;
-    width: 15.5rem;
+    width: 15rem;
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -245,8 +245,8 @@ body{
         align-items: center;
         color: var(--ivory);
         padding: 16px;
-        height: 50px;
-        width: 50px;
+        height: 45px;
+        width: 45px;
         text-align: center;
         border-radius: 50%;
         font-size: 20px;
@@ -254,7 +254,7 @@ body{
 }
 
 .card-details{
-    font-size: 16px;
+    font-size: 15px;
     color: var(--deep-green);
     letter-spacing: 2px;
     font-family:'Courier New', Courier, monospace;
