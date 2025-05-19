@@ -167,7 +167,7 @@ body{
 .search-box input{
     background-color: transparent;
     color: var(--ivory);
-    padding: 10px;
+    padding: 7px 10px;
     outline: none;
     border: none;
 }
@@ -352,4 +352,13 @@ tfoot td{
     cursor: pointer;
     outline: none;
     border: none;
+}
+
+@media(max-width: 800px){
+    .sidebar{
+        position: absolute;
+        left: -75px;
+        height: 100%;
+    }
+   
 }
