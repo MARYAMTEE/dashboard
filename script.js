@@ -13,5 +13,5 @@ closeMenuBtn.addEventListener("click", () => openMenuBtn.click());
 
 //Close side bar when any nav item is clicked
 closeSideBar.forEach(link => {
-	link.addEventListener("click", () => openMenuBtn.click())
+	link.addEventListener("click", () => openMenuBtn.click());
 });
