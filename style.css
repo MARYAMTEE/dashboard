@@ -244,7 +244,7 @@ body{
         justify-content: center;
         align-items: center;
         color: var(--ivory);
-        padding: 16px;
+        padding: 16px !important;
         height: 45px;
         width: 45px;
         text-align: center;
@@ -358,6 +358,9 @@ tfoot td{
 #toggleSidebar{
     display: none;
 }
+#cancelSidebar{
+    display: none;
+}
 
 @media(max-width: 800px){
 
@@ -367,17 +370,18 @@ tfoot td{
         z-index: 5;
         background-color: var(--deep-green);
         position: fixed;
+        border-left: 0;
     }
 
     #toggleSidebar{
 	    position: absolute;
-        top: 0;
-        left: 0;
-	    z-index: 5;
+        top: 5px;
+        left: 5px;
         display: block;
-        z-index: 1000;
+        z-index: 5;
         border: none;
-        font-size: 25px;
+        font-size: 20px;
+        color: white;
     }
 
     .sidebar.hidden {
@@ -421,5 +425,14 @@ tfoot td{
     
     .search-box input{
         padding: 0 10px;
+    }
+
+    #cancelSidebar{
+        color: white;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 23px;
+        display: block;
     }
 }
