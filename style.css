@@ -426,7 +426,7 @@ tfoot td{
     }
     
     .search-box input{
-        padding: 0 10px;
+        padding: 2px 10px;
     }
 
     #cancelSidebar{
@@ -439,8 +439,25 @@ tfoot td{
     }
 
     .icon{
-        padding: 16px !important;
-        height: 45px !important;
-        width: 45px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--ivory);
+        padding: 16px;
+        height: 45px;
+        width: 45px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+
+    .user--info{
+        justify-content: flex-end;
+    }
+
+    .search-box i{
+        font-size: 12px;
+        opacity: 0.7;
     }
 }
